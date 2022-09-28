@@ -1,0 +1,14 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="utf-8")
+    title Practice Pug
+  body
+    h1.header #{ name }
+    p
+      | #{name}'s Pug Project.
+      | #{greet}
+    #this-is-div
+      a(href="https://neos21.net/") Neo's World
+    //- HTML 出力されないコメント
+    // HTML 出力されるコメント

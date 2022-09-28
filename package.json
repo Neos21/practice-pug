@@ -1,0 +1,25 @@
+{
+  "name": "practice-pug",
+  "description": "Practice Pug",
+  "scripts": {
+    "start": "open ./dist/index.html",
+    "build": "node ./build.js"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-pug#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-pug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-pug/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "pug": "3.0.2"
+  }
+}
